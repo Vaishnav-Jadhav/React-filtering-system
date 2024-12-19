@@ -8,7 +8,7 @@ import './index.css'
 //Database
 import data from './DB/Data';
 import { useState } from 'react';
-import { Category } from './Sidebar/Category/Category';
+//import { Category } from './Sidebar/Category/Category';
 
 
 function App() {
@@ -69,6 +69,7 @@ function App() {
       reviews={value.reviews}
       newPrice={value.newPrice}
       prevPrice={value.prevPrice}/> )
+
      
 
     // return filteredData.map(({img,title,rating,reviews,newPrice,prevPrice})=>(        

@@ -6,6 +6,10 @@ import { useState } from "react";
 export function Nav({handleInputChange})
 {
 
+   function onUserClick()
+   {
+      alert("testing...");
+   }
     return(
        <nav>
          <div className="nav-container">
@@ -14,7 +18,7 @@ export function Nav({handleInputChange})
          <div className="profile-container">
             <button className="btn btn-outline-dark"><FiHeart className="nav-icons"/></button>
             <button><AiOutlineShoppingCart className="nav-icons"/></button>
-            <button><AiOutlineUserAdd className="nav-icons"/></button>
+            <button onClick={onUserClick}><AiOutlineUserAdd className="nav-icons"/></button>
          </div>
        </nav>
     )

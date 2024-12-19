@@ -1,9 +1,9 @@
 nav{
     display: flex;
-    border-bottom: 1px solid rgb(209, 205, 205);
+    border-bottom: 1px solid rgba(209, 205, 205, 0.6);
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 18px;
     z-index: 999;
     margin-left: 2px;
 }
